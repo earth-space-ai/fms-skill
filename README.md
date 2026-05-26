@@ -5,6 +5,15 @@ Progressive-disclosure skill for the [GFDL Flexible Modeling System](https://git
 > **Skill author:** Koutian Wu (ktwu01@gmail.com)
 > **Skill version:** 0.1.0-scaffold
 
+> ⚠️ **Disclaimer — please read before using this skill.**
+> This skill is **not a gold-standard reference**. It is a helper that lowers
+> the barrier for new users to **get their hands dirty** with the model. AI
+> agents (and the humans drafting this material) make mistakes; commands, file
+> paths, namelist options, and physics explanations here can be wrong,
+> incomplete, or out of date. **Always cross-check with the official model
+> documentation, the source code, and a human expert before trusting any
+> output for research, publication, or operational use.**
+
 ## What This Is
 
 A guide to FMS for anyone working inside a GFDL model: diag_table configuration, domain decomposition, parallel I/O, coupling, time management, and common build/run errors.
@@ -15,8 +24,8 @@ Scaffold. Module layout, build systems, and key rules verified against the clone
 
 ## Related skills in this org
 
-- [mom6-skill](https://github.com/Earth-Space-Modeling-skills/mom6-skill)
-- [gfdl-fv3-skill](https://github.com/Earth-Space-Modeling-skills/gfdl-fv3-skill)
+- [mom6-skill](https://github.com/earth-space-ai/mom6-skill)
+- [gfdl-fv3-skill](https://github.com/earth-space-ai/gfdl-fv3-skill)
 
 ## License
 
