@@ -27,6 +27,31 @@ Scaffold. Module layout, build systems, and key rules verified against the clone
 - [mom6-skill](https://github.com/earth-space-ai/mom6-skill)
 - [gfdl-fv3-skill](https://github.com/earth-space-ai/gfdl-fv3-skill)
 
+## Acknowledgments
+
+**Gold-standard references for FMS** (use these to cross-check anything in this skill):
+- NOAA-GFDL/FMS repository: https://github.com/NOAA-GFDL/FMS
+- FMS documentation: https://noaa-gfdl.github.io/FMS/
+- NOAA-GFDL organization (downstream models — MOM6, AM4, CM4, SHiELD): https://github.com/NOAA-GFDL
+
+This scaffold exists only because of the work of other people, and any value
+it has is borrowed from theirs.
+
+- **NOAA-GFDL** for building and maintaining
+  [NOAA-GFDL/FMS](https://github.com/NOAA-GFDL/FMS), the framework that
+  underpins MOM6, AM4, CM4, ESM4, SHiELD, and SPEAR. The diag_manager,
+  mpp_domains, time_manager, and `fms_io` patterns this skill teaches all
+  originate with that team.
+- The **GFDL model developer community** whose downstream use of FMS in
+  ocean, atmosphere, and coupled configurations exercises the framework and
+  feeds bug reports and improvements back upstream.
+- **Zesen Huang** for [laps-skill](https://github.com/huangzesen/laps-skill),
+  the progressive-disclosure layout this repo borrows.
+
+Any errors, oversimplifications, or out-of-date claims in this skill are the
+skill author's responsibility, not the upstream community's. This is a
+scaffold; operational depth is being filled in iteratively.
+
 ## License
 
 MIT (skill content). FMS is moving to Apache 2.0 with the 2025.04 release.
